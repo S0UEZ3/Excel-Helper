@@ -35,4 +35,5 @@ namespace EasyBudget
     }
 }
 
+// example run command:
 // dotnet run -- "C:\Users\Admin\Documents\TestData" "item1" "new" "C:\Users\Admin\Documents\TestDataResults\output.xlsx"

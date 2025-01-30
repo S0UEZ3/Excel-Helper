@@ -11,21 +11,12 @@ namespace EasyBudget.Services
     {
         public void WriteRows(List<RowModel> rows, string outputFilePath, bool createNewFile)
     {
-        using (SpreadsheetDocument doc = createNewFile
-            ? SpreadsheetDocument.Create(outputFilePath, SpreadsheetDocumentType.Workbook)
+        using (SpreadsheetDocument doc = createNewFile ? SpreadsheetDocument.Create(outputFilePath, SpreadsheetDocumentType.Workbook)
             : SpreadsheetDocument.Open(outputFilePath, true))
         {
             var workbookPart = doc.WorkbookPart ?? doc.AddWorkbookPart();
-            
-            // Создаем Workbook, если его нет
-            if (workbookPart.Workbook == null)
-                workbookPart.Workbook = new Workbook();
 
             var sheetPart = workbookPart.WorksheetParts.FirstOrDefault() ?? workbookPart.AddNewPart<WorksheetPart>();
-
-            // Создаем Worksheet, если его нет
-            if (sheetPart.Worksheet == null)
-                sheetPart.Worksheet = new Worksheet(new SheetData());
 
             var sheetData = sheetPart.Worksheet.GetFirstChild<SheetData>();
             if (sheetData == null)
@@ -34,11 +25,12 @@ namespace EasyBudget.Services
                 sheetPart.Worksheet.AppendChild(sheetData);
             }
 
-            // Создаем лист в Workbook, если он не добавлен
             if (workbookPart.Workbook.Sheets == null)
+            {
                 workbookPart.Workbook.AppendChild(new Sheets());
-
-            if (!workbookPart.Workbook.Sheets.Elements<Sheet>().Any())
+            }
+            
+            if (workbookPart.Workbook.Sheets != null && !workbookPart.Workbook.Sheets.Elements<Sheet>().Any())
             {
                 var sheet = new Sheet()
                 {
@@ -48,8 +40,7 @@ namespace EasyBudget.Services
                 };
                 workbookPart.Workbook.Sheets.Append(sheet);
             }
-
-            // Добавляем данные в sheetData
+            
             foreach (var rowModel in rows)
             {
                 var newRow = new Row();
