@@ -1,0 +1,31 @@
+# Ignore tmp folders
+bin/
+obj/
+
+# Ignore proj files
+*.csproj
+
+# Ignore tmp Visual Studio files
+.vs/
+*.user
+*.suo
+*.cache
+*.log
+
+# Ignore NuGet
+packages/
+*.nupkg
+project.lock.json
+
+# Ignore config files
+appsettings*.json
+
+# Ingnore building files
+*.dll
+*.exe
+*.pdb
+*.mdb
+
+# Ignore Rider building files
+.idea/
+*.sln.iml
