@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "QOf6yz8n3Pk=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Admin\\RiderProjects\\EasyBudget\\EasyBudget\\EasyBudget.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\documentformat.openxml\\3.0.0\\documentformat.openxml.3.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\documentformat.openxml.extensions\\1.0.0\\documentformat.openxml.extensions.1.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\documentformat.openxml.framework\\3.0.0\\documentformat.openxml.framework.3.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\documentformat.openxml.linq\\3.0.0\\documentformat.openxml.linq.3.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\litedb\\5.0.17\\litedb.5.0.17.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\openxmloffice.excel\\1.0.1\\openxmloffice.excel.1.0.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\openxmloffice.global\\1.0.1\\openxmloffice.global.1.0.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.io.packaging\\8.0.0\\system.io.packaging.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

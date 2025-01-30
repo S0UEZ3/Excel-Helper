@@ -1,0 +1,365 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "DocumentFormat.OpenXml/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "DocumentFormat.OpenXml.Framework": "3.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/DocumentFormat.OpenXml.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/DocumentFormat.OpenXml.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DocumentFormat.OpenXML.Extensions/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "DocumentFormat.OpenXml": "2.11.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/DocumentFormat.OpenXML.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/DocumentFormat.OpenXML.Extensions.dll": {}
+        }
+      },
+      "DocumentFormat.OpenXml.Framework/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Packaging": "8.0.0"
+        },
+        "compile": {
+          "lib/net6.0/DocumentFormat.OpenXml.Framework.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/DocumentFormat.OpenXml.Framework.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DocumentFormat.OpenXml.Linq/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "DocumentFormat.OpenXml.Framework": "3.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/DocumentFormat.OpenXml.Linq.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/DocumentFormat.OpenXml.Linq.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "LiteDB/5.0.17": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/LiteDB.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/LiteDB.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "OpenXMLOffice.Excel/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "OpenXMLOffice.Global": "1.0.1"
+        },
+        "compile": {
+          "lib/net7.0/Excel.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Excel.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "OpenXMLOffice.Global/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "DocumentFormat.OpenXml": "3.0.0",
+          "DocumentFormat.OpenXml.Linq": "3.0.0",
+          "LiteDB": "5.0.17"
+        },
+        "compile": {
+          "lib/net7.0/Global.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Global.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.IO.Packaging/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.IO.Packaging.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IO.Packaging.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DocumentFormat.OpenXml/3.0.0": {
+      "sha512": "o2xu17+4VOT4gKwpEcL5UBNYWrP1HQGkfe+K+LHvq5/07UjpzoGMBQzWMhGimzgL1Q2lEPYAp7JgBNZWTcfGKw==",
+      "type": "package",
+      "path": "documentformat.openxml/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "documentformat.openxml.3.0.0.nupkg.sha512",
+        "documentformat.openxml.nuspec",
+        "icon.png",
+        "lib/net35/DocumentFormat.OpenXml.dll",
+        "lib/net35/DocumentFormat.OpenXml.xml",
+        "lib/net40/DocumentFormat.OpenXml.dll",
+        "lib/net40/DocumentFormat.OpenXml.xml",
+        "lib/netstandard2.0/DocumentFormat.OpenXml.dll",
+        "lib/netstandard2.0/DocumentFormat.OpenXml.xml"
+      ]
+    },
+    "DocumentFormat.OpenXML.Extensions/1.0.0": {
+      "sha512": "lPd2P1bXdFY4DoET5/sQlMGGX7j51b31lS6i4Wk5Hz27tKabTYoN3DhesI4Cn5fWxhmR9JeFE8/GKcszfi3ksw==",
+      "type": "package",
+      "path": "documentformat.openxml.extensions/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "documentformat.openxml.extensions.1.0.0.nupkg.sha512",
+        "documentformat.openxml.extensions.nuspec",
+        "lib/netstandard2.0/DocumentFormat.OpenXML.Extensions.dll"
+      ]
+    },
+    "DocumentFormat.OpenXml.Framework/3.0.0": {
+      "sha512": "kWjZuwFsdbbKA5U3o2X6tQn0yI9gr2Oy4CHWvbc5eHRUcbl5FUi1Si44I3SW3CxyK/3AcMiC4/99wjBVLOk54A==",
+      "type": "package",
+      "path": "documentformat.openxml.framework/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "documentformat.openxml.framework.3.0.0.nupkg.sha512",
+        "documentformat.openxml.framework.nuspec",
+        "icon.png",
+        "lib/net35/DocumentFormat.OpenXml.Framework.dll",
+        "lib/net35/DocumentFormat.OpenXml.Framework.xml",
+        "lib/net40/DocumentFormat.OpenXml.Framework.dll",
+        "lib/net40/DocumentFormat.OpenXml.Framework.xml",
+        "lib/net46/DocumentFormat.OpenXml.Framework.dll",
+        "lib/net46/DocumentFormat.OpenXml.Framework.xml",
+        "lib/net6.0/DocumentFormat.OpenXml.Framework.dll",
+        "lib/net6.0/DocumentFormat.OpenXml.Framework.xml",
+        "lib/netstandard2.0/DocumentFormat.OpenXml.Framework.dll",
+        "lib/netstandard2.0/DocumentFormat.OpenXml.Framework.xml"
+      ]
+    },
+    "DocumentFormat.OpenXml.Linq/3.0.0": {
+      "sha512": "XyDKJi+0IBEd4sPy22OI3QYzFKFBEom6MVpC4WBI+22AGqeJ/bKy6GrmiWH/g/D36Bfa/A6BGlUFK8FW997yLA==",
+      "type": "package",
+      "path": "documentformat.openxml.linq/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "documentformat.openxml.linq.3.0.0.nupkg.sha512",
+        "documentformat.openxml.linq.nuspec",
+        "icon.png",
+        "lib/net35/DocumentFormat.OpenXml.Linq.dll",
+        "lib/net35/DocumentFormat.OpenXml.Linq.xml",
+        "lib/net40/DocumentFormat.OpenXml.Linq.dll",
+        "lib/net40/DocumentFormat.OpenXml.Linq.xml",
+        "lib/netstandard2.0/DocumentFormat.OpenXml.Linq.dll",
+        "lib/netstandard2.0/DocumentFormat.OpenXml.Linq.xml"
+      ]
+    },
+    "LiteDB/5.0.17": {
+      "sha512": "cKPvkdlzIts3ZKu/BzoIc/Y71e4VFKlij4LyioPFATZMot+wB7EAm1FFbZSJez6coJmQUoIg/3yHE1MMU+zOdg==",
+      "type": "package",
+      "path": "litedb/5.0.17",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "AppVeyorSettings.json",
+        "LICENSE",
+        "icon_64x64.png",
+        "lib/net45/LiteDB.dll",
+        "lib/net45/LiteDB.xml",
+        "lib/netstandard1.3/LiteDB.dll",
+        "lib/netstandard1.3/LiteDB.xml",
+        "lib/netstandard2.0/LiteDB.dll",
+        "lib/netstandard2.0/LiteDB.xml",
+        "litedb.5.0.17.nupkg.sha512",
+        "litedb.nuspec"
+      ]
+    },
+    "OpenXMLOffice.Excel/1.0.1": {
+      "sha512": "KMSiSw03ixcySu9cUClqDCzxsY5snx9dhcR21mOM3CdaT4Sqbvdr+ZWKmYGAITYnG6q30VrEpCEOXR+zCo4NlA==",
+      "type": "package",
+      "path": "openxmloffice.excel/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net7.0/Excel.dll",
+        "lib/net7.0/Excel.xml",
+        "openxmloffice.excel.1.0.1.nupkg.sha512",
+        "openxmloffice.excel.nuspec"
+      ]
+    },
+    "OpenXMLOffice.Global/1.0.1": {
+      "sha512": "/uA1MFbXdkxIYLCcw3e47Dmfr+77OeFXz21qhx8LK4QChu+luYQrRJP2gjULGlXhmv2F72k3LAQJjrKWxiInHA==",
+      "type": "package",
+      "path": "openxmloffice.global/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net7.0/Global.dll",
+        "lib/net7.0/Global.xml",
+        "openxmloffice.global.1.0.1.nupkg.sha512",
+        "openxmloffice.global.nuspec"
+      ]
+    },
+    "System.IO.Packaging/8.0.0": {
+      "sha512": "8g1V4YRpdGAxFcK8v9OjuMdIOJSpF30Zb1JGicwVZhly3I994WFyBdV6mQEo8d3T+URQe55/M0U0eIH0Hts1bg==",
+      "type": "package",
+      "path": "system.io.packaging/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.IO.Packaging.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.IO.Packaging.targets",
+        "lib/net462/System.IO.Packaging.dll",
+        "lib/net462/System.IO.Packaging.xml",
+        "lib/net6.0/System.IO.Packaging.dll",
+        "lib/net6.0/System.IO.Packaging.xml",
+        "lib/net7.0/System.IO.Packaging.dll",
+        "lib/net7.0/System.IO.Packaging.xml",
+        "lib/net8.0/System.IO.Packaging.dll",
+        "lib/net8.0/System.IO.Packaging.xml",
+        "lib/netstandard2.0/System.IO.Packaging.dll",
+        "lib/netstandard2.0/System.IO.Packaging.xml",
+        "system.io.packaging.8.0.0.nupkg.sha512",
+        "system.io.packaging.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "DocumentFormat.OpenXML.Extensions >= 1.0.0",
+      "OpenXMLOffice.Excel >= 1.0.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Admin\\RiderProjects\\EasyBudget\\EasyBudget\\EasyBudget.csproj",
+      "projectName": "EasyBudget",
+      "projectPath": "C:\\Users\\Admin\\RiderProjects\\EasyBudget\\EasyBudget\\EasyBudget.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Admin\\RiderProjects\\EasyBudget\\EasyBudget\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "dependencies": {
+          "DocumentFormat.OpenXML.Extensions": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
+          "OpenXMLOffice.Excel": {
+            "target": "Package",
+            "version": "[1.0.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

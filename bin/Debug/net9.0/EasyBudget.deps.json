@@ -1,0 +1,167 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "EasyBudget/1.0.0": {
+        "dependencies": {
+          "DocumentFormat.OpenXML.Extensions": "1.0.0",
+          "OpenXMLOffice.Excel": "1.0.1"
+        },
+        "runtime": {
+          "EasyBudget.dll": {}
+        }
+      },
+      "DocumentFormat.OpenXml/3.0.0": {
+        "dependencies": {
+          "DocumentFormat.OpenXml.Framework": "3.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/DocumentFormat.OpenXml.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "DocumentFormat.OpenXML.Extensions/1.0.0": {
+        "dependencies": {
+          "DocumentFormat.OpenXml": "3.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/DocumentFormat.OpenXML.Extensions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "DocumentFormat.OpenXml.Framework/3.0.0": {
+        "dependencies": {
+          "System.IO.Packaging": "8.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/DocumentFormat.OpenXml.Framework.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "DocumentFormat.OpenXml.Linq/3.0.0": {
+        "dependencies": {
+          "DocumentFormat.OpenXml.Framework": "3.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/DocumentFormat.OpenXml.Linq.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "LiteDB/5.0.17": {
+        "runtime": {
+          "lib/netstandard2.0/LiteDB.dll": {
+            "assemblyVersion": "5.0.17.0",
+            "fileVersion": "5.0.17.0"
+          }
+        }
+      },
+      "OpenXMLOffice.Excel/1.0.1": {
+        "dependencies": {
+          "OpenXMLOffice.Global": "1.0.1"
+        },
+        "runtime": {
+          "lib/net7.0/Excel.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      },
+      "OpenXMLOffice.Global/1.0.1": {
+        "dependencies": {
+          "DocumentFormat.OpenXml": "3.0.0",
+          "DocumentFormat.OpenXml.Linq": "3.0.0",
+          "LiteDB": "5.0.17"
+        },
+        "runtime": {
+          "lib/net7.0/Global.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      },
+      "System.IO.Packaging/8.0.0": {
+        "runtime": {
+          "lib/net8.0/System.IO.Packaging.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EasyBudget/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DocumentFormat.OpenXml/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-o2xu17+4VOT4gKwpEcL5UBNYWrP1HQGkfe+K+LHvq5/07UjpzoGMBQzWMhGimzgL1Q2lEPYAp7JgBNZWTcfGKw==",
+      "path": "documentformat.openxml/3.0.0",
+      "hashPath": "documentformat.openxml.3.0.0.nupkg.sha512"
+    },
+    "DocumentFormat.OpenXML.Extensions/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lPd2P1bXdFY4DoET5/sQlMGGX7j51b31lS6i4Wk5Hz27tKabTYoN3DhesI4Cn5fWxhmR9JeFE8/GKcszfi3ksw==",
+      "path": "documentformat.openxml.extensions/1.0.0",
+      "hashPath": "documentformat.openxml.extensions.1.0.0.nupkg.sha512"
+    },
+    "DocumentFormat.OpenXml.Framework/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kWjZuwFsdbbKA5U3o2X6tQn0yI9gr2Oy4CHWvbc5eHRUcbl5FUi1Si44I3SW3CxyK/3AcMiC4/99wjBVLOk54A==",
+      "path": "documentformat.openxml.framework/3.0.0",
+      "hashPath": "documentformat.openxml.framework.3.0.0.nupkg.sha512"
+    },
+    "DocumentFormat.OpenXml.Linq/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XyDKJi+0IBEd4sPy22OI3QYzFKFBEom6MVpC4WBI+22AGqeJ/bKy6GrmiWH/g/D36Bfa/A6BGlUFK8FW997yLA==",
+      "path": "documentformat.openxml.linq/3.0.0",
+      "hashPath": "documentformat.openxml.linq.3.0.0.nupkg.sha512"
+    },
+    "LiteDB/5.0.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cKPvkdlzIts3ZKu/BzoIc/Y71e4VFKlij4LyioPFATZMot+wB7EAm1FFbZSJez6coJmQUoIg/3yHE1MMU+zOdg==",
+      "path": "litedb/5.0.17",
+      "hashPath": "litedb.5.0.17.nupkg.sha512"
+    },
+    "OpenXMLOffice.Excel/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KMSiSw03ixcySu9cUClqDCzxsY5snx9dhcR21mOM3CdaT4Sqbvdr+ZWKmYGAITYnG6q30VrEpCEOXR+zCo4NlA==",
+      "path": "openxmloffice.excel/1.0.1",
+      "hashPath": "openxmloffice.excel.1.0.1.nupkg.sha512"
+    },
+    "OpenXMLOffice.Global/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/uA1MFbXdkxIYLCcw3e47Dmfr+77OeFXz21qhx8LK4QChu+luYQrRJP2gjULGlXhmv2F72k3LAQJjrKWxiInHA==",
+      "path": "openxmloffice.global/1.0.1",
+      "hashPath": "openxmloffice.global.1.0.1.nupkg.sha512"
+    },
+    "System.IO.Packaging/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8g1V4YRpdGAxFcK8v9OjuMdIOJSpF30Zb1JGicwVZhly3I994WFyBdV6mQEo8d3T+URQe55/M0U0eIH0Hts1bg==",
+      "path": "system.io.packaging/8.0.0",
+      "hashPath": "system.io.packaging.8.0.0.nupkg.sha512"
+    }
+  }
+}
